@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import * as oN from './00'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -17,6 +19,8 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
+          Object has value {oN.obj.m09.obj.m09.obj.m09.obj.m09.value}
+          <br />
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
